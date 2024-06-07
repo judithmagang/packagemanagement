@@ -114,3 +114,4 @@ apt-mark hold kubelet kubeadm kubectl
 systemctl daemon-reload
 systemctl start kubelet
 systemctl enable kubelet.service
+kubeadm join 10.0.101.16:6443 --token ipkcl3.coyhgx8tokos2y24 --discovery-token-ca-cert-hash sha256:03015ab5b565398e86c525c0facd8ec7ab1391d6c3da2bccfa45f3eb2ba5f347
